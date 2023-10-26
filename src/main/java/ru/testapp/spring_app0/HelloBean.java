@@ -1,18 +1,14 @@
 package ru.testapp.spring_app0;
 
 public class HelloBean {
-	private String name;
-			
-	public HelloBean(String name) {
-		this.name = name;
-	}
 	
-	public String getName() {
-		return name;
-	}
+	private String text;
 	
-	public void setName(String name) {
-		this.name = name;
+	public HelloBean(String text) {
+		this.text = text;
 	}
 
+	public String getText() {
+		return text;
+	}
 }
